@@ -10,4 +10,4 @@ class Blog(models.Model):
 
     image = models.ImageField(upload_to='images/')
 
-    
+    objects = models.Manager()
